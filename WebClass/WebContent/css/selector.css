@@ -1,0 +1,25 @@
+@CHARSET "utf-8";
+/*    // css주석 아님    */
+/* css 주석 */
+/*   <!-- html 주석 -->   */
+*{
+	color: blue;
+	text-align: center;
+}
+h1{
+	background-color: yellow;
+	border: 2px solid;
+}
+h3{
+color: pink;
+text-align: right;
+}
+#text1 {
+font-weight: bold;	
+}
+.text2 {
+font-style: italic;
+}
+h1, h3 {
+text-decoration: underline;
+}

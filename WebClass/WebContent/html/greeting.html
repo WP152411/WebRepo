@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JS실습</title>
+<script>
+function greeting (nation){
+	console.log('greeting 함수 시작');
+	if(nation =='k'){
+		document.getElementById("result").innerHTML = "안녕하세요";
+	}
+	else if(nation == 'A'){
+		document.getElementById("result").innerHTML = "Hi";
+	}
+	else if(nation == 'C'){
+		document.getElementById("result").innerHTML = "니 하오"
+	}
+	console.log('greeting 함수 끝');
+	console.log(document.getElementById("result"));
+}
+function Korean(){
+	alert('안녕하세요!!');
+}
+function English(){
+	alert('Hello!!');
+}
+function Chinese(){
+alert('니 하오!!');
+}
+</script>
+각 나라의 인사말<br><br>
+</head>
+<body>
+<input type = "button" onclick = "greeting('k');" value = "한국">
+<button onclick = "greeting('A')">미국</button>
+<button onclick = "greeting('C')">중국</button>
+<p id = "result"></p>
+</body>
+</html>
