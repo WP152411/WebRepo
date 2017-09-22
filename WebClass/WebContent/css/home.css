@@ -1,0 +1,47 @@
+@CHARSET "utf-8";
+
+#signUpForm {
+	margin-left: 8px;
+}
+
+#blank {
+	position: relative;
+	width: 25%;
+	height: 300vh;
+	background-color: #EAD8F6;
+	float: left;
+	padding: 30px;
+}
+
+#title {
+	position: relative;
+	float: left;
+	text-align: center;
+	width: 50%;
+	height: 100%;
+	background-color: white;
+	padding: 30px;
+}
+
+#blank2 {
+	position: relative;
+	width: 25%;
+	height: 300vh;
+	background-color: #EAD8F6;
+	float: right;
+	padding: 30px;
+}
+
+#signupForm {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.navbar navbar-expand-lg navbar-dark {
+	style ="background-color: #31094E;
+	"
+}
+
+#back {
+	background-color: #31094E;
+}
